@@ -1,0 +1,67 @@
+#include <stdio.h>
+
+int main() {
+    printf("Welcome to IES Bank \n");
+    int pin,ch,cardnum,click ,choice;
+    char op,np;
+    float amount=76788.45,wa=0.0,enter=0.0;
+    printf("Enter your  card number");
+    scanf("%d",&cardnum);
+    
+    printf("Enter your PIN");
+    scanf("%d",&pin);
+    printf("\n\t*************************************");
+     printf("\n\t*           MENU                   *");
+     printf("\n\t*     1. Check Balance             *");
+     printf("\n\t*     2. PIN change                *");
+     printf("\n\t*     3. Mini statement            *");
+     printf("\n\t*     4. withdraw amount           *");
+     printf("\n\t*                                  *");
+     printf("\n\t*************************************");
+     printf("\n\n");
+     printf("Enter your choice: \n");
+     scanf("%d", &choice);
+     //printf("Inter your choice");
+    if(pin=1400<=1500)
+    {
+        if(choice ==1)
+        {
+            printf("Current balance on your account:%f",amount);
+            //scanf("%f",&amount);
+        }
+    }
+    else if (choice ==2)
+    {
+        
+        printf("PIN change ");
+        printf("Enter your old PIN:\n");
+        scanf("%c",&op);
+        printf("Enter your New PIN:\n");
+        scanf("%c",&np);
+    }
+    else if(choice==3)
+    {
+        printf("I want to recived my Mini Statement:\n");
+        if(click==1)
+        {
+            printf("yes i want the receipts");
+        }
+        else
+        printf("i don't want the receipts");
+    }
+    else if(choice==4)
+    {
+        printf("specific balance:\n");
+        printf("Enter the amount:\n");
+        scanf("%f",&enter);
+        wa=amount-enter;
+        printf("withdraw amount :\n");
+        scanf("%f",&wa);
+        
+    }
+    else
+    {
+        printf("exit");
+    }
+    return 0;
+}
