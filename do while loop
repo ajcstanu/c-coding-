@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int num=0;
+    int sum= 0;
+    do{
+        printf("enter the number:");
+        scanf("%d",&num);
+        if(num>0);
+        {
+          sum+=num;  
+        }
+        
+        printf("sum of the numberb:%d\n",sum);
+    }while(num>0);
+ 
+return 0;
+}
