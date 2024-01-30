@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<Math.h>
+int main()
+{
+double A= sqrt(5);
+double B=pow(2,4);    //16
+int C=round(3.14);    //4
+int D =ceil(3.14);    //4
+int E=floor(3.99);    //3
+int F= fabs(-5);    //output is 5
+int G=log(4);
+printf("%ld",A);
+printf("%ld",B);
+printf("%lf",C);
+printf("%lf",D);
+printf("%lf",E);
+printf("%d",F);
+printf("%lf",G);
+return 0;
+}
+
