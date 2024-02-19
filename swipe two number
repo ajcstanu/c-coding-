@@ -1,0 +1,11 @@
+// coding for swipe two number without using 3rd variable 
+#include<stdio.h>
+void main()
+{
+  int a=10,b=100;
+  a=a^b;
+  b=a^b;
+  a=a^b;
+  printf("After swipping the number a=%d, b=%d",a,b);
+  
+}
